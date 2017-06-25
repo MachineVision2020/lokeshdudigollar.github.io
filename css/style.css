@@ -174,9 +174,7 @@ body {
 }
 
 
-h1, h3, h4, h5, h6, {
-	color: #20515b;
-}
+
 ::-moz-selection {
     color: red;
     background: yellow;
