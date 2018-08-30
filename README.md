@@ -1,7 +1,7 @@
 # lokeshdudigollar.github.io
 
 
-This is my personal portfolio made with full of passion and love.
+This is my personal portfolio
 
 Tools used:
 
