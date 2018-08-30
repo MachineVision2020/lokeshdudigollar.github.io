@@ -3,8 +3,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta content="yes" name="apple-mobile-web-app-capable">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
 	
 	<link
@@ -14,57 +14,153 @@
 		media="screen"
 	/>
 	
-	<script type="text/javascript" src="js/prism.js"></script>
-	<script type="text/javascript" src="js/prism.ruby.js"></script>
+	<script type="text/javascript" src="prism.js"></script>
+	<script type="text/javascript" src="prism.ruby.js"></script>
 	
 	<title>Lokesh Dudigollar</title>
-		<meta name="discription" content="Lokesh Dudigollar is a professional
+	<meta name="discription" content="Lokesh Dudigollar is a professional
 	software engineer specializing in robotics technologies. 
 	He has extensive experience with RaspberryPi, Arduino, Python and web development" />
-	
+
 	
 	</head>
 	
 	<body>
+
 	<div  class= "about-container">
+
+
 		<ul>
-			<li><a href="#" class="nav-link">About</a></li>
-			<li><a href="#code-samples" class="nav-link">Code Snippets</a></li>
-			<li><a href="#robotics-projects" class="nav-link">Robotics projects</a></li>
-			<li><a href="#skills-and-tools" class="nav-link">Skills &amp; Tools</a></li>
-			<li class="hire-me"><a href="#contact" class="nav-link">Hire Me</a></li>
+		<li><a href="#" class="nav-link">About</a></li>
+		<li><a href="#code-samples" class="nav-link">Code Snippets</a></li>
+		<li><a href="#robotics-projects" class="nav-link">Robotics projects</a></li>
+		<li><a href="#skills-and-tools" class="nav-link">Skills &amp; Tools</a></li>
+		<li class="hire-me"><a href="#hire-me" class="nav-link">Hire Me</a></li>
 		</ul>
-		<div class="about">
-			<img src="images/me.jpg" class="me"/>
+		<div class = "my_img"><img src="me.jpg" class="me"/></div>
 			
-			<h1>Lokesh Dudigollar</h1>
-		
-			<h2>Robotics Engineer</h2>
+			
+			<!--<h1>Lokesh Dudigollar</h1>-->
+			<div class="banner">
+	           <blockquote class="quote wow bounceInRight" data-wow-duration="2s">
+	           	<i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>
+	           
+	           	<i class="fa fa-quote-right fa-1x" aria-hidden="true"></i>
+	           </blockquote>
+           	<div class="header-banner">
+           		<ul class="header-name wow bounceInLeft" data-wow-duration="2s">
+           			<h1 class="a">LOKESH DUDIGOLLAR</h1>
+           			<!--<li><h1 class="a">O</h1></li>
+           			<li><h1 class="a¦">K</h1></li>
+           			<li><h1 class="a">E</h1></li>
+           			<li><h1 class="a">S</h1></li>
+           			<li><h1 class="a">H</h1></li>
+           			<li><h1 class="a">D</h1></li>
+           			<li><h1 class="a">U</h1></li>
+           			<li><h1 class="a">D</h1></li>
+           			<li><h1 class="a">I</h1></li>
+           			<li><h1 class="a">G</h1></li>
+           			<li><h1 class="a">O</h1></li>
+           			<li><h1 class="a">L</h1></li>
+           			<li><h1 class="a">L</h1></li>
+					<li><h1 class="a">A</h1></li>
+					<li><h1 class="a">R</h1></li>-->
+           		</ul>
+               	
+            </div>
+            
+              
+           </div>
+               	
+		<div class="about">
+			<h2>Roboticist|Android geek|Teaching passionate|AI aspirant</h2>
+			
 		
 			<hr class="grey"/>
 		
 			<p class="bio">
-			Lokesh Dudigollar is a Roboticist who loves to build and play robots. He is in love with Raspberry Pi.
-			He is currently working on 4 domains namely Pi IoT, App Inventor, 2D game making. He also works on web development in his free time. 
+			
+			Lokesh Dudigollar is a Roboticist who loves to build and play robots. 
+			He is in love with Raspberry Pi. He is currently working on 4 domains namely Python, Data Science, RPi IoT, App Inventor.
+			He also works on web development in his free time.
 			</p>
+			<a class="nav" href="#about" id="to-about">
+				<i class="fa fa-chevron-circle-down fa-3x faa-vertical animated faa-slow"></i>
+			</a>
 		</div>
 	</div>
 	<h3 id= "code-samples">Code Snippets</h3>
 	<hr class="yellow">
 	
 	<div class="box">
-		<h4>Snippet1 </h4>
+		<h4>Scrapping data from Magicbricks</h4>
 		<p>
-			Hidden! Patience!!....
+			Now-a-days we tend to end up in places far away from home thereby going for rented rooms,PGs etc.
+			With digital world it has become a lot easier to search for rooms using online servies like magicbricks,
+			propertydeal.com etc. But that doesn't make work easier because we often encounter huge number of results when
+			we search for a city or area so going through every result and page is cumbersome.</p>
+		<p>	
+			After encountering such problem myself I built this python script which exstracts the data from Magicbricks and 
+			puts that in a nice CSV file with all relavant information. I just need to execute the script online.
+			It was conceptualized with the help of beautifulSoup and Pandas. I do have plan to build a full functional android app 
+			where user can just enter the locality and it will give him data in CSV file.
 		</p>
 
 	</div>
+	<div class="box">
+	<pre> <code class="language-python">
+	l = []
+	import requests
+	from bs4 import BeautifulSoup
+	base_url = "https://www.magicbricks.com/property-for-rent/residential-real-estate?proptype=Multistorey-Apartment,Builder-Floor-Apartment,Penthouse,Studio-Apartment,Service-Apartment&cityName=Gurgaon/Page= "
+	page_nr = soup.find_all("a",{"class":"act"})[-1].text
+	for page in range(0,int(page_nr), 1):
+    r = requests.get(base_url+str(page)+"html")
+    c = r.content
+    soup = BeautifulSoup(c,"html.parser")
+	
+	
+	</code><a href="#" class="nav-link">See More</a></pre>
+	
+	</div>
+	<br class="clear"/>
 
 	
 	<div class="box">
-		<h4>Snippet2</h4>
+		<h4>The Financial Stock app</h4>
+		<p class="stock">
+			SAY GOOD BYE to CUMBERSOME of STOCK TRADING!!</p><p>
+			The ultimate aim of this project is to build a chat bot with which users varying from basic users to advanced
+			can get all stock related information like candlesticks charts, company profile,curent news about company,
+			company's history(more to be added) and also give AI based BUY/SELL signals to the trader and 
+			give them day-based performace(Traded volume,HIGH,LOW,Delivery percentage etc) of stock.  
+		</p>
+		
+	</div>
+	<div class="box">
+	
+	
+	<img src="bokeh_plot.png" width =600px height = 250px />
+	<a href="#" >See Code</a>
+		
+	</div>
+	
+	<br class="clear"/>
+	
+	<div class="box">
+		<h4>Box3</h4>
 		<p>
-			Hidden! Patience....
+			Coming Soon....
+		</p>
+		
+	</div>
+	
+	
+	<div class="box">
+		
+		<h4>Box4</h4>
+		<p>
+			Coming Soon....
 		</p>
 		
 	</div>
@@ -72,38 +168,18 @@
 	<br class="clear"/>
 	
 	<div class="box">
-		<h4>Snippet3</h4>
+		<h4>Box5</h4>
 		<p>
-			Hidden! Patience....
+			Coming Soon....
 		</p>
 		
 	</div>
 	
 	
 	<div class="box">
-		
-		<h4>Snippet4</h4>
+		<h4>Box6</h4>
 		<p>
-			Hidden! Patience....
-		</p>
-		
-	</div>
-	
-	<br class="clear"/>
-	
-	<div class="box">
-		<h4>Snippet5</h4>
-		<p>
-			Hidden! Patience....
-		</p>
-		
-	</div>
-	
-	
-	<div class="box">
-		<h4>Snippet6</h4>
-		<p>
-			Hidden! Patience....
+			Coming Soon....
 		</p>
 		
 	</div>
@@ -113,43 +189,26 @@
 	<h3 id= "robotics-projects">Robotics Projects</h3>
 	<hr class="yellow" />
 	<div class="box">
-		<h4>Project1</h4>
-		<p>
-			Hidden! Patience....
-		</p>
-		
+		<h4>Raspberry Pi based Motion detection </h4>
+			<p>
+			This is a robot powered by RaspberryPi coupled with computer vision.The robot was attached with a camera and 
+			whenever any person/moving object was entering within camera's range the robot would 
+			detect it and note down the start time when object entered and the end time when object disappeared.
+			This time data was then plotted on website using Bokeh. OpenCV was used for vision.Pandas was used to create CSV file consisting all data
+			</p>
 	</div>
-	
-	
 	<div class="box">
-		
-		<h4>Project2</h4>
-		<p>
-			Hidden! Patience....
-		</p>
-		
+	<pre> <code class="language-python">
+	from motion_det import df
+	from bokeh.plotting import figure, show, output_file
+	from bokeh.models import HoverTool, ColumnDataSource 
+	import pandas
+
+	df["Start_string"]=df["Start"].dt.strftime("%Y-%m-%d %H:%M:%S")
+	df["End_string"]=df["End"].dt.strftime("%Y-%m-%d %H:%M:%S")
+	
+	</code><a href="#" class="nav-link">See More</a></pre>
 	</div>
-	
-	<br class="clear"/>
-		
-	<div class="box">
-		<h4>Project3</h4>
-		<p>
-			Hidden! Patience....
-		</p>
-		
-	</div>
-	
-	
-	<div class="box">
-		
-		<h4>Project4</h4>
-		<p>
-			Hidden! Patience....
-		</p>
-		
-	</div>
-	
 	<br class="clear"/>
 	
 	<h3 id= "skills-and-tools">Skills &amp; Tools</h3>
@@ -160,73 +219,174 @@
 		comfort with the following tools
 	</p>
 	<div class="icons" >
-		<img src="images/github0.png" class="icon"/>
-		<img src="images/topcoder.png" class="icon"/>
-		<img src="images/arduino.png" class="icon"/>
-		<img src="images/rpi.png" class="icon"/>
+		<img src="github0.png" class="icon"/>
+		<img src="topcoder.png" class="icon"/>
+		<img src="arduino.png" class="icon"/>
+		<img src="rpi.png" class="icon"/>
 		<br class="clear" />
-		<img src="images/skills.png" class="Icon"//>
+		<img src="skills.png" class="Icon"//>
 		
 	</div>
 	
+	<!--<div class="contact-me" id="hire-me">
+		<h3 class="contact-headline">Get in touch </h3>
+		<hr class="yellow" />
+		<p class="contact-info">
+			Currently entertaining new opportunities
+			please get in touch with me:
+		
+		<p>
+		<a href="mailto:lokesh.dudigollar@gmail.com" class="mail-link" >
+			<img src="gmail.png" class="icon"/>
+			
+		</a>
+	<a href="linkedinMe:" class="linkedin-link">
+			<img src="linkedin.png" class="icon"/>
+	</a>
+		</p>
+	
+	</div>-->
+			<div class="contact" id="contact">
+			<div class="wow bounceInLeft" data-wow-duration="2s">
 
-	<div class="contact" id="contact">
-		<div class="wow bounceInLeft" data-wow-duration="2s">
-			<a class="contact-icons" href="https://www.quora.com/profile/Lokesh-Dudigollar" target = "_blank" title="To Lokesh's Twitter profile!">
-				
-					<img src="images/twitter.png" class="icon"/>
-			</a>
-			<a class="contact-icons" href="https://www.freecodecamp.com/machinevision2020" target = "_blank" title="To Lokesh's Free Code Camp profile!">
-				
-					<img src="images/fcc.png" class="icon"/>
-			</a>
-		</div>
-		<div>
-			<h1 class="contact-white">Get in touch</h1>
+				<a class="contact-icons" href="https://twitter.com/Ikol_R" target="_blank" title="To Lokesh's Twitter profile!">
+					<i class="fa fa-twitter fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+					<img src="twitter.png" class="icon"/>
+				</a>
+				<a class="contact-icons" href="https://www.freecodecamp.org/lokeshdudigollar" target="_blank" title="To Lokesh's Free Code Camp profile!">
+					<i class="fa fa-free-code-camp fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+					<img src="fcc.png" class="icon"/>
+				</a>
+			</div>
+			<div>
+				<h1 class="contact-white">Get in touch</h1>
 				<p class="contact-white">Currently entertaining new opportunities.</p>
 				<p>Feel free to reach out.</p>
+			</div>
+			<div class="wow bounceInRight" data-wow-duration="2s">
+				<a class="contact-icons" href="mailto:lokesh.dudigollar@gmail.com" target="_blank" title="lokesh.dudigollar@gmail.com">
+					<i class="fa fa-envelope fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+					<img src="gmail.png" class="icon"/>
+				</a>
+				<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+				<a class="contact-icons" href="https://www.linkedin.com/in/lokeshdudigollar/" target="_blank" title="To Lokesh's LinkedIn profile!">
+					<i class="fa fa-linkedin fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+					<img src="linkedin.png" class="icon"/>
+				</a>
+				<a class="contact-icons" href="https://github.com/lokeshdudigollar" target="_balnk" title="To Lokesh's GitHub profile!">
+					<i class="fa fa-github fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+					<img src="github.png" class="icon"/>
+				</a>
+			</div>
 		</div>
-		<div class="wow bounceInRight" data-wow-duration="2s">
-			<a class="contact-icons" href="mailto:lokesh.dudigollar@gmail.com" target="_blank" title="lokesh.dudigollar@gmail.com">
-				
-					<img src="images/gmail.png" class="icon"/>
-			</a>
-			<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="lokeshdudigollar"><a class="LI-simple-link" href='https://in.linkedin.com/in/lokeshdudigollar?trk=profile-badge'>lokesh dudigollar</a></div><a class="contact-icons" href="https://www.linkedin.com/in/lokeshdudigollar/" target = "_blank" title="To Lokesh's LinkedIn profile!">
-				
-					<img src="images/linkedin.png" class="icon"/>
-			</a>
-			<a class="contact-icons" href="github.com/MachineVision2020" target = "_blank" title="To Lokesh's GitHub profile!">
-				
-					<img src="images/github.png" class="icon"/>
-			</a>
-		 </div>
-	</div>
-	<!-- END of contact --><br>
-	<div class="extra">
-		<h9><strong>Animations and Effects Coming Soon.....</strong></h9>
-	<!-- START OF FOOTER -->
-	<footer>
+			<!-- END of contact --><br>
+			
+
+
+		<!-- START OF FOOTER -->
+		<footer>
 		<p>
 			<ul>
-				<li><a href="#" class="nav">about</a></li>
-				<li><a href="#skills-and-tools" class="nav">skills</a></li>
-				<li><a href="#code-samples" class="nav">portfolio</a></li>
-			    	<li><a href="https://drive.google.com/open?id=0ByxifgpHcNjNT19VNTBGRWhhVFk" title="Get my resume here!" target="_blank" class="nav">contact</a></li>
+				<li><a href="#about" class="nav">about</a></li>
+				<li><a href="#skills" class="nav">skills</a></li>
+				<li><a href="#portfolio" class="nav">portfolio</a></li>
+			    <li><a href="#contact" class="nav">contact</a></li>
 			</ul>
 		</p>
-		<p>
-          		Lokesh Dudigollar &copy;
-          		<i class="fa fa-copyright faa-spin animated-hover" aria-hidden="true">
-          		</i> 
-          		2017 | Made with &#x2615; and &#128151;
-			
-          		</i>
-		</p>
+				
+				<p>Lokesh Dudigollar <i class="fa fa-copyright faa-spin animated-hover" aria-hidden="true"></i>&#169 2017 | Made with &#x2615; and &#128151;
+ 
+					<i class="fa fa-heart faa-pulse animated faa-fast"></i>
+				</p>
 				
 		</footer>
 		<!-- End of Footer -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script> 
+	wow = new WOW(
+	{
+	    boxClass: 'wow',
+	    animateClass: 'animated', 
+	    offset: 0,
+	    mobile: true,
+	    live: true
+	});
+	wow.init();
+</script>
+<script type="text/javascript">
+function lccfsNavOpen() {
+    document.getElementById("lccfs-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function gogonNavOpen() {
+    document.getElementById("gogon-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function phageNavOpen() {
+    document.getElementById("phage-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function inventoryNavOpen() {
+    document.getElementById("inventory-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function typeabNavOpen() {
+    document.getElementById("typeab-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function presidentsNavOpen() {
+    document.getElementById("presidents-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function closeNav() {
+	document.getElementById("lccfs-nav").style.width = "0%";
+	document.getElementById("gogon-nav").style.width = "0%";
+	document.getElementById("phage-nav").style.width = "0%";
+	document.getElementById("inventory-nav").style.width = "0%";
+	document.getElementById("typeab-nav").style.width = "0%";
+	document.getElementById("presidents-nav").style.width = "0%";
+    $("body").removeClass("overflo");
+}
+//ESC TRIGGER FUNCTION
+$("body").keydown(function(esc) {
+	if(esc.keyCode == 27) {
+		document.getElementById("lccfs-nav").style.width = "0%";
+		document.getElementById("gogon-nav").style.width = "0%";
+		document.getElementById("phage-nav").style.width = "0%";
+		document.getElementById("inventory-nav").style.width = "0%";
+		document.getElementById("typeab-nav").style.width = "0%";
+		document.getElementById("presidents-nav").style.width = "0%";
+		$("body").removeClass("overflo");
+	}
+});
+var esc = $.Event("keydown", {
+		keyCode: 27
+	});
+//END OF ESC TRIGGER FUNCTION
+$(document).ready(function(){
+	var $root = $('html, body');
+	$('.nav, #toTop').click(function() {
+	    $root.animate({
+	        scrollTop: $( $.attr(this, 'href') ).offset().top
+	    }, 500);
+	    return false;
+	});
+	// SCROLL TO TOP ICON FADE AFTER SCROLL DOWN
+	$(window).scroll(function() {
+	    if ($(this).scrollTop()) {
+	        $('#toTop').fadeIn();
+	    } else {
+	        $('#toTop').fadeOut();
+	    }
+	});
+});
+</script>
+<noscript>Your browser does not support JavaScript!</noscript
 
-	</body>
+</body>
+	
+	
+	
 
 
 </html>
