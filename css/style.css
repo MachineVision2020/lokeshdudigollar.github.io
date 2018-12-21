@@ -40,7 +40,8 @@ margin-right: auto;
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center
+	text-align: center;
+	margin-top: 30px;
 }
 
 .grey{
@@ -472,7 +473,7 @@ div.header-banner {
 }
 div.banner blockquote.quote {
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 0;
     right: 0;
 	color: #74b1be;
