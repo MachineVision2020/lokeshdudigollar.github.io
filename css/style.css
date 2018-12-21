@@ -1476,7 +1476,7 @@ MEDIA QUERIES
         width: auto;
     }
 }
-/* Screens lower that 320 w */ 
+/* Screens lower that 320 w  */ 
 @media only screen and (max-width: 320px) {
 	.skill-sec div {
 	    padding: 5px;
