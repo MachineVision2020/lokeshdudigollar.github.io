@@ -463,7 +463,7 @@ a.nav:hover::after {
 
 div.header-banner {
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 0;
     right: 0;
     bottom: 0;
