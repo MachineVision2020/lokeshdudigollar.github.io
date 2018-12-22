@@ -14,7 +14,7 @@ h1{
 h2{
 	color: #4BE31B;
 	font-size: 18px;
-	margin-top: 90px;
+	margin-top: 100px;
 }
 
 .bio{
@@ -465,7 +465,7 @@ a.nav:hover::after {
 
 div.header-banner {
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 0;
     right: 0;
     bottom: 0;
