@@ -465,7 +465,7 @@ a.nav:hover::after {
 
 div.header-banner {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -474,7 +474,7 @@ div.header-banner {
 }
 div.banner blockquote.quote {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 0;
     right: 0;
 	color: #74b1be;
