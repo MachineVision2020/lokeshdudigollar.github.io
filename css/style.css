@@ -42,7 +42,7 @@ margin-right: auto;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 40px;
 }
 
 .grey{
@@ -465,7 +465,7 @@ a.nav:hover::after {
 
 div.header-banner {
     position: absolute;
-    top: 60%;
+    top: 80%;
     left: 0;
     right: 0;
     bottom: 0;
